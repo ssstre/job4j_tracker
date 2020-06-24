@@ -10,7 +10,7 @@ public class Battery {
 
 
     public void exchange(Battery another) {
-        this.load = this.load - another.load;
+        this.load = this.load + another.load;
         another.load = 0;
     }
 
@@ -18,7 +18,7 @@ public class Battery {
         Battery first = new Battery(100);
         Battery second = new Battery(25);
         System.out.println("first : " + first.load + ". second : " + second.load);
-        first.exchange(second);
+        second.exchange(first);
         System.out.println("first : " + first.load + ". second : " + second.load);
     }
 }
