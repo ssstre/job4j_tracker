@@ -1,6 +1,6 @@
 package ru.job4j.oop.proffesion;
 
-public class Buider {
+public class Buider extends Engineer {
 
     private String task;
 

@@ -1,6 +1,6 @@
 package ru.job4j.oop.proffesion;
 
-public class Dentist {
+public class Dentist extends Doctor {
     private String diagnosis;
 
     public String getDiagnosis(Doctor doctor, String diagnosis) {
